@@ -1,4 +1,5 @@
 import { FaCode, FaUserSecret } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export default function App() {
   return (
@@ -25,12 +26,12 @@ export default function App() {
                 Test your logic skills by converting binary to decimal! <br /> Perfect for juniors (Grade 6–9).
               </p>
             </div>
-            <a
-              href="/binary"
+            <Link
+              to="/binary"
               className="bg-blue-500 hover:bg-blue-600 text-white font-semibold text-lg md:text-xl py-3 px-6 rounded-lg shadow-md shadow-blue-500/50 transition duration-300 inline-block mx-auto"
             >
               Play Now
-            </a>
+            </Link>
           </div>
 
           {/* Hacker Puzzle Card */}
@@ -44,12 +45,12 @@ export default function App() {
                 Crack codes, decode patterns, and think like a hacker. <br /> Designed for seniors (Grade 10–13).
               </p>
             </div>
-            <a
-              href="/hacker-puzzle"
+            <Link
+              to="/hacker-puzzle"
               className="bg-green-500 hover:bg-green-600 text-white font-semibold text-lg md:text-xl py-3 px-6 rounded-lg shadow-md shadow-green-500/50 transition duration-300 inline-block mx-auto"
             >
               Start Hacking
-            </a>
+            </Link>
           </div>
         </div>
       </main>
