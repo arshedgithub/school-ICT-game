@@ -45,7 +45,7 @@ export default function App() {
               </p>
             </div>
             <a
-              href="/hacker"
+              href="/hacker-puzzle"
               className="bg-green-500 hover:bg-green-600 text-white font-semibold text-lg md:text-xl py-3 px-6 rounded-lg shadow-md shadow-green-500/50 transition duration-300 inline-block mx-auto"
             >
               Start Hacking
