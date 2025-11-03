@@ -1,12 +1,9 @@
-import './App.css'
+import Home from "./pages/home";
 
-function App() {
-
+export default function App() {
   return (
-    <>
-    HeLLo React
-    </>
-  )
+    <div>
+      <Home />
+    </div>
+  );
 }
-
-export default App
