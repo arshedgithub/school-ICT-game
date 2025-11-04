@@ -15,7 +15,7 @@ const randomInt = (min: number, max: number) =>
   Math.floor(Math.random() * (max - min + 1)) + min;
 
 // Generate one question based on type
-const generateQuestion = (type: QuestionType): Question => {
+export const generateQuestion = (type: QuestionType): Question => {
   let num: number;
   switch (type) {
     case "binaryToDecimal":
