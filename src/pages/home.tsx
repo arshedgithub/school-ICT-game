@@ -8,7 +8,7 @@ export default function App() {
       {/* Header */}
       <header className="flex justify-center items-center py-16 px-4 md:px-8">
         <h1 className="text-3xl md:text-5xl font-bold text-center leading-snug">
-          🧠 Welcome to the IT Day Game Zone
+          🧠 Welcome to the IT Game Zone
         </h1>
       </header>
 
@@ -57,7 +57,7 @@ export default function App() {
 
       {/* Footer */}
       <footer className="py-12 text-gray-400 text-sm md:text-base text-center">
-        © 2025 IT Day | Created by CodeMyte Lab
+        © 2025 IT Day | Developed by CodeMyte Lab
       </footer>
     </div>
   );
